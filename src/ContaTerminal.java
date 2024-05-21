@@ -27,7 +27,8 @@ public class ContaTerminal {
         conta.saldo =  scanner.nextDouble();
 
         //Mensagem a ser exibida concatenado os dados inseridos
-        System.out.println("Olá " + conta.nomeCliente + " " + conta.sobrenomeCliente + " obrigado por criar uma conta em nosso banco, sua agência é " + conta.agencia + ", conta " + conta.numeroConta + " e seu saldo de R$ " + conta.saldo + " já está disponível para saque." );   
+        System.out.println("Olá " + conta.nomeCliente + " " + conta.sobrenomeCliente + " obrigado por criar uma conta em nosso banco, sua agência é " + conta.agencia + ", conta " + conta.numeroConta + " e seu saldo de R$ " + conta.saldo + " já está disponível para saque." );  
+        scanner.close(); 
 
     }
 }
